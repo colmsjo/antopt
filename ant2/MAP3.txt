@@ -1,0 +1,14 @@
+a,b,c,d,e,f
+     bXXXXXXXXXXXXXXXXXXXXd
+    X X                  X  
+   X   X                X
+  X     X              X
+ X       X            X
+aXXXXXXjXXcXXXXXXXXXXe
+ X     X   X         X
+  X    X    gXXXXXXXXh
+   X   X    X 
+    X  X    i
+     X X  X
+      XX X
+       f

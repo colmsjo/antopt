@@ -1,0 +1,41 @@
+---
+title: "test1"
+author: "Jonas Colmsjö"
+date: '2017-05-06'
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+The plots are saved in jpeg files when this document is built.
+
+Brute force algorithm
+
+```{r myplot, echo=FALSE}
+x <- c(9,10,11)
+ybf <- c(0.803, 8.352, 1*60+32.474) 
+
+jpeg('bf.jpg')
+plot(x, ybf, main="Brute force", xlab="Number of nodes", ylab="sec", 
+     xlim=c(9, 12), ylim=c(0, 110))
+dev.off()
+```
+
+
+Ant algorithm
+
+```{r myplot2, echo=FALSE}
+x <- c(9, 10, 11, 12, 48)
+ybf <- c(0.153, 0.217, 0.145, 0.174, 3.355) 
+
+jpeg('ant.jpg')
+plot(x, ybf, main="Myralgoritm", xlab="Number of nodes", ylab="sec", 
+     xlim=c(9, 50), ylim=c(0, 5))
+dev.off()
+```
+
